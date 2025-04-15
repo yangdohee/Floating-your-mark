@@ -10,7 +10,7 @@
 ## Intro.
  OpenCV를 활용하여, 
  camera calibration 프로그램을 통해 얻은 **calibration reslut.npz**을 활용하였습니다. 
-- calibration reslut.npz에서 **내부 파라미터(mtx)** 와 **왜곡 계수(dist)** 얻기 
+- calibration result.npz에서 **내부 파라미터(mtx)** 와 **왜곡 계수(dist)** 얻기 
 - **체스보드의 코너 검출**을 통해 카메라의 **자세(Pose)** 를 추정
 - 추정된 pose 바탕으로 **Y, D, H**를 서로 다른 색으로 **영상 상에 투영**하는 증강현실(ar) 구현
 
