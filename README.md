@@ -34,12 +34,16 @@
 
 ---
 
-## AR 물체 표시 결과 데모
-> 
+## AR " Y D H " 표시 결과 demo
+> Before
+
+https://github.com/user-attachments/assets/8b2b4dc7-07e9-418d-b93e-4dc3d2b24036
+
+> After
 
 ---
 
-## 실행 방법
+## 실행
 ```bash
 python Floating_ar_chessboard.py
 ```
