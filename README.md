@@ -7,7 +7,7 @@
 
 ---
 
-## Intro.
+## Intro (프로그램 간단히 소개)
  OpenCV를 활용하여, 
  camera calibration 프로그램을 통해 얻은 **calibration reslut.npz**을 활용하였습니다. 
 - calibration result.npz에서 **내부 파라미터(mtx)** 와 **왜곡 계수(dist)** 얻기 
@@ -19,14 +19,14 @@
 ## 프로그램 구조
 
 ### 1. 사용한 데이터
-- 입력 영상: `checkboard2.mp4`
+- **입력 영상: `checkboard2.mp4`**
   <-- 나의 카메라를 이용해 얻은 영상.
   
 
 https://github.com/user-attachments/assets/2ae9bf73-e7b1-4da5-8042-e2783aa5c46c
 
 
-- 캘리브레이션 결과: `calibration_result.npz`
+- **캘리브레이션 결과: `calibration_result.npz`**
  #### 활용한 Calibration 결과 
 #####  Camera Matrix (내부 파라미터)
 
@@ -49,11 +49,11 @@ https://github.com/user-attachments/assets/2ae9bf73-e7b1-4da5-8042-e2783aa5c46c
 | p2   | 접선 왜곡 계수 2 | -0.0473972  |
 | k3   | 반경 왜곡 계수 3 |  6.3331162  |
 
+- **출력 영상: `Floating_YDH.avi`** 
+
 ---
 
-- 출력 영상: `Floating_YDH.avi` 
-
-### 2. 주요 처리 단계
+### 2. **프로그램 기능** 주요 처리 단계
 
 1. `calibration_result.npz` 파일에서 카메라 내부 파라미터(`mtx`)와 왜곡 계수(`dist`)를 불러옵니다. 이는 3D → 2D 투영 및 카메라 자세 추정을 위한 필수 요소입니다.
 
