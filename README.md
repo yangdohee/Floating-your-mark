@@ -52,14 +52,17 @@ https://github.com/user-attachments/assets/3926d8a8-273f-4ead-b036-d3937695d465
 python Floating_ar_chessboard.py
 ```
 
-### 폴더 구성
+###  +( 전체 폴더 구성)
 ```
 .
-├── checkboard2.mp4             # 입력 체스보드 영상
-├── calibration_result.npz      # 캘리브레이션 결과 파일
-├── Floating_ar_chessboard.py   # 메인 실행 코드
-├── Floating_YDH.avi            # 출력 AR 영상 결과
-├── README.md                   # 설명 문서
+├── README.md
+├── Floating_ar_chessboard.py
+├── cvdata/
+│   ├── checkboard2.mp4
+│   └── Floating_YDH.avi
+│   └── calibration_result.npz
+│   └── Floating_YDH.mp4
+
 ```
 
 ---
