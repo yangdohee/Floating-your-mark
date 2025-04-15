@@ -20,8 +20,14 @@
 
 ### 1. 사용한 데이터
 - 입력 영상: `checkboard2.mp4`
+  <-- 나의 카메라를 이용해 얻은 영상.
+  
+
+https://github.com/user-attachments/assets/2ae9bf73-e7b1-4da5-8042-e2783aa5c46c
+
+
 - 캘리브레이션 결과: `calibration_result.npz`
-- 출력 영상: `Floating_YDH.avi`
+- 출력 영상: `Floating_YDH.avi` 
 
 ### 2. 주요 처리 단계
 1. `calibration_result.npz` 파일에서 mtx, dist 불러오기
